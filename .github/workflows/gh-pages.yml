@@ -17,8 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      npm_config_optional: false
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,13 +25,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
-      - name: Clean install deps (no optional native binaries)
-        run: |
-          # Remove any cached/corrupted modules
-          rm -rf node_modules package-lock.json
-          # Fresh install without optional deps (avoids Rollup native binary issues)
-          npm install --no-optional --legacy-peer-deps
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps || npm install --legacy-peer-deps
 
       - name: Build
         run: npm run build
