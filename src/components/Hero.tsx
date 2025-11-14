@@ -17,31 +17,31 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <div className="animate-fade-in-up">
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
-            Le Detailing Automobile Professionnel
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white">
+            Detailing professionnel - Brillance & protection
           </h1>
-          
-          <p className="text-2xl md:text-3xl mb-4 text-white font-light">
-            Finition Parfaite, Protection Durable
-          </p>
-          
-          <p className="text-lg md:text-xl mb-12 text-muted-foreground max-w-2xl mx-auto">
-            LuxuryAutoDetailing redonne éclat, protection et valeur à votre véhicule
+
+          <p className="text-xl md:text-2xl mb-6 text-white font-light">
+            Redonnez éclat et valeur à votre véhicule — Devis gratuit
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-gradient-primary hover:shadow-glow transition-all text-lg px-8 py-6"
+              onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
+              aria-label="Réserver un service"
             >
-              Réserver un Service
+              Réserver
             </Button>
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               variant="outline"
               className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all text-lg px-8 py-6"
+              onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
+              aria-label="Demander un devis"
             >
-              Demander un Devis
+              Demander un devis
             </Button>
           </div>
           

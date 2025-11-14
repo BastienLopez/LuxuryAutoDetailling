@@ -40,17 +40,17 @@ const Gallery = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <div className="text-sm font-semibold text-destructive mb-2">AVANT</div>
-                  <img 
-                    src={item.before} 
-                    alt="Avant" 
+                  <img
+                    src={item.before}
+                    alt={`${item.title} - Avant`}
                     className="rounded-lg w-full h-64 object-cover border-2 border-destructive/50"
                   />
                 </div>
                 <div>
                   <div className="text-sm font-semibold text-primary mb-2">APRÈS</div>
-                  <img 
-                    src={item.after} 
-                    alt="Après" 
+                  <img
+                    src={item.after}
+                    alt={`${item.title} - Après`}
                     className="rounded-lg w-full h-64 object-cover border-2 border-primary/50"
                   />
                 </div>
