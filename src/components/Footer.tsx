@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
-              ProDetailCar
+              LuxuryAutoDetailing
             </h3>
             <p className="text-muted-foreground text-sm mb-4">
               Votre expert en detailing automobile professionnel. Excellence, passion et finition parfaite.
@@ -44,7 +44,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>contact@prodetailcar.fr</span>
+                <span>contact@luxuryautodetailing.fr</span>
               </li>
             </ul>
           </div>

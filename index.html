@@ -1,14 +1,26 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      // Ensure the site loads in dark mode on every initial load/refresh.
+      // Remove any persisted theme so we always start dark, then add the class
+      // so CSS renders correctly before React mounts.
+      try {
+        localStorage.removeItem('theme');
+        document.documentElement.classList.add('dark');
+      } catch (e) {
+        // ignore
+      }
+    </script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ProDetailCar - Detailing Automobile Professionnel | Finition Parfaite</title>
-    <meta name="description" content="ProDetailCar : Expert en detailing automobile professionnel. Nettoyage premium, polissage, protection céramique. Redonnez éclat et valeur à votre véhicule." />
-    <meta name="author" content="ProDetailCar" />
+    <title>LuxuryAutoDetailing - Detailing Automobile Professionnel | Finition Parfaite</title>
+    <meta name="description" content="LuxuryAutoDetailing : Expert en detailing automobile professionnel. Nettoyage premium, polissage, protection céramique. Redonnez éclat et valeur à votre véhicule." />
+    <meta name="author" content="LuxuryAutoDetailing" />
     <meta name="keywords" content="detailing automobile, nettoyage voiture, polissage carrosserie, protection céramique, rénovation auto, detailing professionnel" />
 
-    <meta property="og:title" content="ProDetailCar - Detailing Automobile Professionnel" />
+    <meta property="og:title" content="LuxuryAutoDetailing - Detailing Automobile Professionnel" />
     <meta property="og:description" content="Expert en detailing automobile : nettoyage premium, polissage et protection céramique. Finition parfaite garantie." />
     <meta property="og:type" content="website" />
     </head>

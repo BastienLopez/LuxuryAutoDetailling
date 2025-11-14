@@ -3,12 +3,12 @@ const About = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">À Propos de ProDetailCar</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">À Propos de LuxuryAutoDetailing</h2>
           
           <div className="w-20 h-1 bg-gradient-primary mx-auto mb-8" />
           
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            ProDetailCar est une entreprise spécialisée dans le <span className="text-primary font-semibold">detailing automobile professionnel</span> : 
+            LuxuryAutoDetailing est une entreprise spécialisée dans le <span className="text-primary font-semibold">detailing automobile professionnel</span> : 
             nettoyage haut de gamme, rénovation esthétique et protection céramique.
           </p>
           

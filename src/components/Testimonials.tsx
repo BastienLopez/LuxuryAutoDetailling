@@ -26,7 +26,7 @@ const Testimonials = () => {
       name: "Thomas R.",
       vehicle: "BMW M4",
       rating: 5,
-      text: "J'ai essayé plusieurs détailers, ProDetailCar est de loin le meilleur. Travail méticuleux et résultat au-delà de mes attentes."
+      text: "J'ai essayé plusieurs détailers, LuxuryAutoDetailing est de loin le meilleur. Travail méticuleux et résultat au-delà de mes attentes."
     },
     {
       name: "Élise M.",

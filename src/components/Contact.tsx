@@ -25,7 +25,7 @@ const Contact = () => {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="mailto:contact@prodetailcar.fr?subject=Demande%20de%20renseignement"
+                    href="mailto:contact@luxuryautodetailing.fr?subject=Demande%20de%20renseignement"
                     className="w-full"
                   >
                     <Button size="lg" className="w-full bg-gradient-primary hover:shadow-glow flex items-center justify-center gap-2">
@@ -35,7 +35,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="https://instagram.com/prodetailcar"
+                    href="https://instagram.com/luxuryautodetailing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full"
@@ -57,10 +57,10 @@ const Contact = () => {
                 <div className="flex items-center justify-between mt-2 text-sm text-muted-foreground">
                   <span>Ou contactez-nous via :</span>
                   <div className="flex gap-3">
-                    <a href="mailto:contact@prodetailcar.fr" className="text-muted-foreground hover:text-primary">
+                    <a href="mailto:contact@luxuryautodetailing.fr" className="text-muted-foreground hover:text-primary">
                       Email
                     </a>
-                    <a href="https://instagram.com/prodetailcar" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
+                    <a href="https://instagram.com/luxuryautodetailing" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
                       Instagram
                     </a>
                     <a href="tel:+33123456789" className="text-muted-foreground hover:text-primary">
@@ -119,8 +119,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-muted-foreground text-sm">contact@prodetailcar.fr</p>
-                    <a href="mailto:contact@prodetailcar.fr" className="text-primary text-sm block mt-1">Envoyer un email</a>
+                    <p className="text-muted-foreground text-sm">contact@luxuryautodetailing.fr</p>
+                    <a href="mailto:contact@luxuryautodetailing.fr" className="text-primary text-sm block mt-1">Envoyer un email</a>
                   </div>
                 </div>
 
@@ -130,7 +130,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Instagram</p>
-                    <a href="https://instagram.com/prodetailcar" target="_blank" rel="noopener noreferrer" className="text-primary text-sm block mt-1">@prodetailcar</a>
+                    <a href="https://instagram.com/luxuryautodetailing" target="_blank" rel="noopener noreferrer" className="text-primary text-sm block mt-1">@luxuryautodetailing</a>
                   </div>
                 </div>
 
